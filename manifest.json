@@ -1,0 +1,25 @@
+{
+	"manifest_version": 2,
+	"name": "Netflix Title",
+	"short_name": "NetflixTitle",
+	"version": "0.0.1",
+  
+	"description": "Changes the window title to match what you are watching",
+	"browser_specific_settings": {
+		"gecko": {
+			"id": "14d26ce0d9c7ee900fd085f51c04528e61c1a23d@temporary-addon",
+			"strict_min_version": "42.0"
+		}
+	},
+	  
+	"permissions": [
+		"https://*.netflix.com/*"
+	],
+	"content_scripts": [
+	  	{
+		  "matches":["https://*.netflix.com/watch/*"],
+		  "js": ["adjustTitle.js"]
+		  
+	  	}
+	]
+}
