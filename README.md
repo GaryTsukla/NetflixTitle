@@ -2,6 +2,8 @@
 
 This is a 5-minute extension I made for Firefox. 
 
+https://addons.mozilla.org/en-GB/firefox/addon/set-netflix-title/
+
 I have a few tabs open for different shows on Netflix, and the tab's title is always "Netflix" instead of the show I'm watching. It's a little annoying because, sometimes, I can't remember which show is on which tab.
 
 I made this quick extension, to change the tab's title to the title of the show.
